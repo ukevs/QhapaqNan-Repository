@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* General selectors */
+
+html {
+	font-size: 62.5%;
+}
+
+header {
+	background-color: #f5f9fa;
+}
+
+nav {
+	padding: 15px 0px;
+}
+
+/* Selectors */
+
+.container {
+	max-width: 1400px;
+	margin: auto
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	flex-direction: column;
+}
+
+.logo img {
+	height: 125px;
+	margin-right: 10px;
+	padding: 5px 15px;
+}
+
+.title {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	font-size: 3.5em;
+	font-family: "Nanum Gothic", sans-serif;
+	font-style: normal;
+	font-weight: bold;
+	line-height: normal;
+	text-transform: uppercase;
+	margin: 15px;
+	color: #002864;
+}
+
+.nav__links {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	padding: 5px 15px;
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+.nav__links:hover {
+	color: #00388b;
+}
+
+.card__video {
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
+	height: 100%;
+	width: 100%;
+}
+
+.capa {
+	background: #1c1c1d;
+	opacity: 0.5;
+	mix-blend-mode: overlay;
+}
+
+.intro {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	padding: 15px 30px;
+	margin: 10px;
+}
+
+.subtitle {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 1.5em;
+	margin: 10px;
+}
+
+.description {
+	font-family: 'QuickSand', sans-serif;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 1.5em;
+	margin: 10px;
+
+}
+
+.guide {
+	display: flex;
+	flex-direction: column;
+	padding: 15px 30px;
+	margin: 10px;
+}
+
+.subtitle2 {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	font-style: normal;
+	line-height: 1.5em;
+	margin: 5px;
+}
+
+.guidelines {
+	
+}
