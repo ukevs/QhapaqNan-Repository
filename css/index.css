@@ -89,6 +89,7 @@ nav {
 	text-align: center;
 	padding: 15px 30px;
 	margin: 10px;
+	background-color: ;
 }
 
 .subtitle {
@@ -128,4 +129,17 @@ nav {
 
 .guidelines {
 	
+}
+
+.end {
+	background-color: #fff6ed;
+}
+
+.byKevin {
+
+	background-color: #2a2b2b;
+}
+
+.byKevin p {
+	color: #ebf3f5;
 }
