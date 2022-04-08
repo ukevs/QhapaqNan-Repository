@@ -68,31 +68,30 @@ nav {
 	color: #00388b;
 }
 
+.card {
+	background-color: #ebf3f5;
+	border-radius: 15px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: relative;
+	margin: 10px;
+}
+
 .card__video {
 	display: flex;
 	flex-direction: column;
 	justify-items: center;
 	align-items: center;
+	overflow: hidden;
+	border-radius: 10px;
 	height: 100%;
 	width: 100%;
 }
 
-.capa {
-	background: #1c1c1d;
-	opacity: 0.5;
-	mix-blend-mode: overlay;
-}
 
-.intro {
-	display: flex;
-	flex-direction: column;
-	text-align: center;
-	padding: 15px 30px;
-	margin: 10px;
-	background-color: ;
-}
 
-.subtitle {
+.card__subtitle {
 	font-family: 'Nanum Gothic', sans-serif;
 	font-size: 2em;
 	font-weight: bold;
@@ -101,7 +100,7 @@ nav {
 	margin: 10px;
 }
 
-.description {
+.card__description {
 	font-family: 'QuickSand', sans-serif;
 	font-size: 1.5em;
 	font-weight: normal;
@@ -116,6 +115,8 @@ nav {
 	flex-direction: column;
 	padding: 15px 30px;
 	margin: 10px;
+	background-color: #ebf3f5;
+	border-radius: 15px;
 }
 
 .subtitle2 {
@@ -125,6 +126,7 @@ nav {
 	font-style: normal;
 	line-height: 1.5em;
 	margin: 5px;
+	text-align: center;
 }
 
 .guidelines {
@@ -132,14 +134,22 @@ nav {
 }
 
 .end {
-	background-color: #fff6ed;
+	background-color: #2a2b2b;
+	margin: 0px;
+	padding: 0px;
 }
 
-.byKevin {
-
-	background-color: #2a2b2b;
+.end__icon img {
+	display: flex;
+	width: 32px;
+	height: 32px;
+	color: #fff;
+	align-items: ;
 }
 
 .byKevin p {
 	color: #ebf3f5;
+	font-family: 'QuickSand', sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
 }
