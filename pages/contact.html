@@ -1,62 +1,92 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Contacto</title>
-</head>
-<body>
-	<header>
-		<div>
-			<img src="../img/Logotipo.png" height="150" width="250" alt="LOGO">
-			<a href="../index.html"> <img src="" alt=""></a>
-		</div>
-		<nav>
-			<ul>
-				<li><a href="../index.html">Inicio</a></li>
-				<li><a href="excursiones.html">Excursiones</a></li>
-				<li><a href="profesionales.html">Profesionales</a></li>
-				<li><a href="sobre_nosotros.html">Sobre Nosotros</a></li>
-				<li><a href="contacto.html">Contacto</a></li>
-			</ul>
-		</nav>
-	</header>
-	<main>
-		<form action="">
-            <fieldset>
-                <legend>Dejanos tu consulta</legend>
-                <br>
-                <input type="text" name="nombre" id="" placeholder="Tu nombre">
-                <br><br>
-                <div>
-                    <label for="email">Ingresar tu correo</label>
-                    <br>
-                    <input type="email" name="email" id="" required>
-                </div>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="../css/contact.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Quicksand&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Contacto</title>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<a href="#" class="logo">
+					<img src="../img/Logotipo.png" alt="LOGO" />
 
-                <div>
-                    <h4>Contanos que necesitas</h4>
-                    <select name="servicio" id="">
-                        <option value="inicio" hidden>Seleccione</option>
-                        <option value="reservación">Reservación</option>
-                        <option value="guías">Guías</option>
-                        <option value="información">Información</option>
-                        <option value="Hospedaje">Hospedaje</option>
+					<h1 class="title">Cooperativa<br />de<br />Turismo</h1>
+				</a>
+			</div>
 
-                    </select>
-                </div>
-                <br><br>
-                <div>
-                    <label for="newslatter">Queres recibir nuestras novedades y ofertas?</label>
-                    <input type="checkbox" name="aceptar" id="newslatter" value="1">
-                </div>
-                <br>
-                <div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Borrar">
-                </div>
-            </fieldset>
-        </form>
-	</main>
-</body>
+			<nav>
+				<a href="../index.html" class="nav__links">Inicio</a>
+				<a href="/pages/excursions.html" class="nav__links">Excursiones</a>
+				<a href="/pages/gallery.html" class="nav__links">Galería</a>
+				<a href="/pages/about_us.html" class="nav__links">Sobre Nosotros</a>
+				<a href="/pages/contact.html" class="nav__links">Contacto</a>
+			</nav>
+		</header>
+		<main>
+			<form action="">
+				<fieldset>
+					<legend>Dejanos tu consulta</legend>
+					<br />
+					<input type="text" name="nombre" id="" placeholder="Tu nombre" />
+					<br /><br />
+					<div>
+						<label for="email">Ingresar tu correo</label>
+						<br />
+						<input type="email" name="email" id="" required />
+					</div>
+
+					<div>
+						<h4>Contanos que necesitas</h4>
+						<select name="servicio" id="">
+							<option value="inicio" hidden>Seleccione</option>
+							<option value="reservación">Reservación</option>
+							<option value="guías">Guías</option>
+							<option value="información">Información</option>
+							<option value="Hospedaje">Hospedaje</option>
+						</select>
+					</div>
+					<br /><br />
+					<div>
+						<label for="newslatter"
+							>Queres recibir nuestras novedades y ofertas?</label
+						>
+						<input type="checkbox" name="aceptar" id="newslatter" value="1" />
+					</div>
+					<br />
+					<div>
+						<input type="submit" value="Enviar" />
+						<input type="reset" value="Borrar" />
+					</div>
+				</fieldset>
+			</form>
+		</main>
+
+		<footer class="end">
+			<div class="byKevin">
+				<p>
+					{Diseñado y desarrollado por Kevin Villalobos.<br />&copy; Todos los
+					derechos reservados.}
+				</p>
+				<p>{MATRICULA | 55.508}</p>
+			</div>
+			<div class="end__icon">
+				<a href="https://www.facebook.com/" target="_blank">
+					<img src="../img/facebook-white.png" alt="Facebook" />
+				</a>
+				<a href="https://www.instagram.com/" target="_blank">
+					<img src="../img/instagram-white.png" alt="Instagram" />
+				</a>
+				<img src="../img/whatsapp-white.png" alt="WhatsApp" />
+			</div>
+		</footer>
+	</body>
 </html>
