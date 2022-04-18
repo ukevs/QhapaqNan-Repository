@@ -18,11 +18,28 @@ nav {
 	padding: 15px 0px;
 }
 
+button {
+	font-family: "QuickSand", sans-serif;
+	font-weight: bold;
+	font-size: 1.5em;
+	padding: 10px 25px;
+	margin: 10px;
+	border-radius: 10px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+	color: #ffffff;
+	background-color: #ffba6a;
+}
+
+button:hover {
+	background-color: #ffa333;
+}
+
 /* Selectors */
 
 .container {
 	max-width: 1400px;
-	margin: auto
+	margin: auto;
 }
 
 .logo {
@@ -66,4 +83,120 @@ nav {
 
 .nav__links:hover {
 	color: #00388b;
+}
+
+.cards {
+	background-color: #ebf3f5;
+	text-align: center;
+}
+
+.cards h2 {
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 2em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.container__cards {
+	padding: 100px 10px;
+}
+
+.card1 {
+	background-color: #abf3ab;
+	border-radius: 15px;
+	padding: 50px 15px;
+	margin: 25px 0px;
+}
+
+.card1 h3 {
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 1.7em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.card1 p {
+	font-family: "QuickSand", sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.card2 {
+	background-color: #abf3ab;
+	border-radius: 15px;
+	padding: 50px 15px;
+	margin: 25px 0px;
+}
+
+.card2 h3 {
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 1.7em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.card2 p {
+	font-family: "QuickSand", sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.card3 {
+	background-color: #abf3ab;
+	border-radius: 15px;
+	padding: 50px 15px;
+	margin: 25px 0px;
+}
+
+.card3 h3 {
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 1.7em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.card3 p {
+	font-family: "QuickSand", sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.card4 {
+	background-color: #abf3ab;
+	border-radius: 15px;
+	padding: 50px 15px;
+	margin: 25px 0px;
+}
+
+.card4 h3 {
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 1.7em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.card4 p {
+	font-family: "QuickSand", sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+.card5 {
+	background-color: #abf3ab;
+	border-radius: 15px;
+	padding: 50px 15px;
+	margin: 25px 0px;
+}
+
+.card5 h3 {
+	font-family: "Nanum Gothic", sans-serif;
+	font-size: 1.7em;
+	font-weight: bold;
+	line-height: 1.5em;
+}
+
+.card5 p {
+	font-family: "QuickSand", sans-serif;
+	font-size: 1.5em;
+	line-height: 1.5em;
 }
