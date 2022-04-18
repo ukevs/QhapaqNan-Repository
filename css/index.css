@@ -133,6 +133,15 @@ nav {
 	
 }
 
+.location {
+	display: flex;
+	flex-direction: column;
+	padding: 15px 30px;
+	margin: 10px;
+	background-color: #ebf3f5;
+	border-radius: 15px;
+}
+
 .end {
 	background-color: #2a2b2b;
 	margin: 0px;
