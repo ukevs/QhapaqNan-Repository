@@ -200,3 +200,34 @@ button:hover {
 	font-size: 1.5em;
 	line-height: 1.5em;
 }
+
+.end {
+	display: flex;
+	background-color: #2a2b2b;
+	margin: 0px;
+	padding: 0px;
+}
+
+.byKevin p {
+	text-align: start;
+	margin: 10px;
+	color: #ebf3f5;
+	font-family: "QuickSand", sans-serif;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.end__icon {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+}
+
+.end__icon img {
+	display: flex;
+	flex-direction: row;
+	margin: 0px 5px;
+	width: 32px;
+	height: 32px;
+	color: #fff;
+}
